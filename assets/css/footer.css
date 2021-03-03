@@ -1,0 +1,49 @@
+/* 
+
+CSS pour le footer
+
+*/
+
+footer{
+    border-top:5px solid rgb(216, 30, 30);
+    width: 87%;
+    margin:auto;
+    background-color:rgba(0, 0, 0, 0.815);
+    font-family: 'Signika Negative', sans-serif;
+    padding:30px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul{
+    list-style: none;
+}
+
+.links a{
+    color:white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.top{
+    padding-right: 20px;
+}
+
+.top i{
+    font-size: 45px;
+    color:white;
+}
+
+.copy{
+    text-align: center;
+    color:white;
+}
+
+.links a:hover,
+.top i:hover{
+    color:rgb(216, 30, 30);
+    transition: 0.5s;
+}

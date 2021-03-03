@@ -1,0 +1,119 @@
+/* 
+
+Css pour le body
+
+*/
+
+.presentation{
+    border-top:5px solid rgb(216, 30, 30);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgba(0, 0, 0, 0.815);
+    padding-bottom: 20px; 
+}
+
+.titre h1{
+    color:rgb(216, 30, 30);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.contenue{
+    color:white;
+}
+
+/* Stats de la Terre */
+.stats-terre{
+    display: flex;
+    justify-content: space-around;
+    border-top:5px solid rgb(216, 30, 30);
+    width: 87%;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.815);
+    font-family: 'Signika Negative', sans-serif;
+    padding: 30px;
+}
+
+.terre img{
+    transition: 0.5s;
+}
+
+.terre img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.stats{
+    color:white;
+}
+
+.stats h1{
+    text-align: center;
+}
+
+.stats span{
+    color:rgb(216, 30, 30);
+}
+
+/* Reseaux */
+.reseaux{
+    border-top:5px solid rgb(216, 30, 30);
+    width: 87%;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.815);
+    font-family: 'Signika Negative', sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+
+.contenue{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reseaux i{
+    color:white;
+    font-size: 55px;
+}
+
+.reseaux i:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    color:rgb(216, 30, 30);
+}
+
+.reseaux figcaption{
+    padding-top: 10px;
+    color:white;
+    font-size: x-large;
+}
+
+.banniere{
+    border-top:rgb(216, 30, 30) 5px solid;
+    background: rgba(0, 0, 0, 0.911);
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    padding:30px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.text-banniere p{
+    font-size: large;
+}
+.button-banniere{
+    padding-top:15px;
+}
+.button-banniere a{
+    border:solid 1px rgb(216, 30, 30);
+    padding:10px;
+    background:rgb(216, 30, 30);
+    border-radius: 7px;
+    color:white;
+    text-decoration: none;
+}

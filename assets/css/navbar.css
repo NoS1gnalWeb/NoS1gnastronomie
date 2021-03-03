@@ -1,0 +1,64 @@
+/* 
+
+CSS navigation
+
+*/
+html{
+    background-image:url('../img/wallpaper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+.top{
+    border:none;
+    margin:-8px;
+    padding-bottom: 50px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    padding:50px;
+}
+
+.navigation a{
+    text-transform: uppercase;
+    font-size: x-large;
+    text-decoration: none;
+    padding:10px;
+    color:white;
+}
+
+.navigation a:hover{
+    text-decoration: none;
+    color:rgb(216, 30, 30);
+    transition:0.5s;
+}
+
+.navigation .active{
+    color:rgb(216, 30, 30);
+    font-weight: bold;
+}
+
+
+/* Message bienvenue */
+
+.bienvenue{
+    text-align: center;
+}
+
+.bienvenue h1{
+    font-size: 45px;
+    color:white;
+}
+
+.bienvenue h2{
+    color:white;
+}
+
+.bienvenue span{
+    color:rgb(216, 30, 30);
+    font-weight: bold;
+}
